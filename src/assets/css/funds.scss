@@ -1,0 +1,313 @@
+
+.f_conent{
+    width: 100%;
+    height: 100%;
+    .f_header{
+        width: 100%;
+        // height:0.78rem; 
+        padding-top: 0.3rem;;
+        padding-bottom: 0.3rem;;
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 0.3rem;
+        h2{
+            display: block;
+            line-height: 0.25rem;
+            padding-left: 0.16rem;
+            margin-left: 0.3rem;
+            border-left: 0.04rem solid #00aedd;
+            height: 0.25rem;
+        }
+     }
+     .f-main{
+         width: 95%;
+         margin: 0 auto;
+         .topUl{
+            width: 100%;
+            min-height:40px;
+            margin-bottom: 10px;
+            li{
+                float: left;
+                border: 1px solid #ededed;
+                margin-top: 10px;
+                margin-right: 16px;
+                width: 60px;
+                height: 40px;
+                line-height: 40px;
+                cursor: pointer;
+                text-align: center;
+                span{
+                   font-size: 14px;
+                }
+            }
+            li:hover{
+                color: #00aedd;
+                border: 1px solid #00aedd;
+            }
+            .lis{
+               color: #00aedd;
+               border-bottom: 2px solid #00aedd;
+            }
+        }
+         p{
+             padding-top: 0.2rem;
+             padding-bottom: 0.2rem;
+             line-height: 0.4rem;
+             font-size: 18px;
+             color: #555555;
+             position: relative;
+             span{
+                 font-size: 14px;
+                 color: #00aedd;
+                 position: absolute;
+                 right: 0px;
+                 cursor: pointer;
+             }
+         }
+     }
+     .ivu-tabs-tab{
+         border:1px solid #ededed;
+     }
+     .ivu-tabs-tab:hover{
+        border:1px solid #00aedd;
+        border: color #00aedd;
+     }
+     .ivu-tabs-tab-active{
+         color: #00aedd;
+     }
+     .ivu-form-item-content{
+        line-height: 40px;
+        // margin-left: 148px!important;
+        span{
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 48px;
+            height: 60%;
+            line-height: 24px;
+            width:80px;
+            border-left: 1px solid #e5e5e5;
+            text-align: center;
+            font-size: 14px;
+        }
+     }
+    .ac_th{
+        width: 100%;
+        border-bottom: 1px solid #e9eaec;
+        ul{
+            width: 100%;
+            height: 50px;
+            li{
+                float: left;
+                width: 25%;
+                text-align: left;
+                font-size: 14px;
+                background: #f8f8f9;
+                line-height: 50px;
+                padding-left: 0.1rem;
+                font-weight: 600;
+            }
+            li:nth-child(1){
+              padding-left:40px;
+            }
+            li:nth-child(3){
+                width: 20%;
+            }
+            li:nth-child(2){
+                width: 49%;
+            }
+            li:nth-child(4){
+                width: 6%;
+                padding-left: 0;
+            }
+        }
+    }
+    .ac_td{
+       width: 100%;
+    //    padding: 0 0.2rem;
+       padding-bottom:1rem;
+       ul{
+           width: 100%;
+           height: 48px;
+           li{
+               float: left;
+               width: 25%;
+               text-align: left;
+               font-size: 12px;
+               line-height:48px;
+               padding-left: 0.1rem;
+               background: url(/static/img/dashed.png) repeat-x bottom;
+               border: none;
+               position: relative;
+
+               .editInput{
+                width: 100px;
+                height: 25px;
+                border: 1px solid #dedede;
+               }
+               span{
+                   padding: 0 0.05rem;
+                   display: inline-block;
+               }
+               img{
+                   width: 14px;
+                   height:14px;
+                   display: inline-block;
+                   vertical-align: middle;
+                   margin-right: 0.1rem;
+                   margin-left: 0.1rem;
+                   cursor: pointer;
+               }
+               .showimg{
+                position: absolute;
+                width:100px;
+                height: 100px;
+                top:30px;
+                left:-18%;
+                box-shadow: 3px 3px 3px #dedede;
+                z-index: 10000;
+            }
+           }
+           li:nth-child(1){
+            padding-left:40px;
+          }
+          li:nth-child(3){
+            width: 20%;
+        }
+        li:nth-child(2){
+            width: 49%;
+        }
+            li:nth-child(4){
+                width: 6%;
+                padding-left: 0;
+            }
+       }
+       ul:nth-child(even){
+        background: #f8f8f9;
+        }
+       ul:hover{
+            background:#ebf7ff;
+        }
+    }
+    .ivu-tabs-nav .ivu-tabs-tab{
+        padding: 8px 20px;
+    }
+    .ivu-tabs-nav-wrap{
+        margin-bottom: 0px;
+    }
+    .ivu-tabs-bar{
+        margin: 0 0.3rem;
+        border: none;
+    }
+
+    .yz{
+        text-align: center;
+        padding-bottom: 0.3rem;
+    }
+    .unrecord{
+        width: 100%;
+        height: 100%;
+         text-align: center;
+         margin-top:100px;
+         p{
+             color: #555555;
+             font-size: 14px;
+         }
+    }
+    }
+    .mask{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(55,55,55,.6);
+        height: 100%;
+        z-index: 1000;
+    }
+.vertical-center-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ivu-modal{
+        top: 0;
+    }
+}
+.ivu-btn-error.active, .ivu-btn-error:active,.ivu-btn-error:hover{
+    background-color: #00aedd;
+    border-color: #00aedd;
+}
+.ivu-input{
+    height: 40px;
+    // width: 85%;
+}
+.ivu-input-type{
+    position: relative;
+}
+.ivu-form-item-label{
+   font-size:14px;
+   padding: 13px 12px 13px 0;
+}
+.alertModal1{
+    position: fixed;
+    top:0;
+    // margin-top: -300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    height:500px;
+    width: 700px;
+    margin:auto;
+    z-index: 10000;
+    vertical-align:middle;
+    border-radius: 3px;
+    p{
+        padding: 0.15rem 0rem 0.15rem 0.2rem;
+        font-size: 16px;
+        color: #555555;
+        border-bottom: 1px solid #dedede;
+        span{
+            float: right;
+            margin-right:0.2rem;
+            font-size: 30px;
+            margin-top: -10px;
+        }
+    }
+    form{
+        width:75%;
+        margin: 0 auto;
+        margin-top: 0.3rem;
+        min-width: 358px;
+        margin-left: 7%;
+        input{
+            position: relative;
+        }
+        .formSpan{
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 10px;
+            padding: 0 0.1rem;
+            height: 70%;
+            margin-top: 0.1rem;
+            line-height: 0.35rem;
+            // width: 0.92rem;
+            border-left: 1px solid #e5e5e5;
+            text-align: center;
+        }
+        .ivu-input-wrapper{
+            width: 85%;
+            // margin-left: 0.45rem;;
+        }
+    }
+    .btn{
+        text-align: center;
+        button{
+            width: 27.5%;
+        }
+    }
+}
+.ivu-form-item-label{
+    width: 200x!important;
+}

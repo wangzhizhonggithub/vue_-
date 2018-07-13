@@ -1,0 +1,242 @@
+.v-tradeOper {
+    width: 100%;
+    .ivu-table table {
+        table-layout: fixed;
+        width: 1200px!important;
+    }  
+    .v-record{
+        width: 100%;
+        min-height: 500px;
+        background: #ffffff;
+        margin-top: 15px;
+        h2{
+            font-size: 14px;
+            color: #555555;
+            font-weight: normal;
+            height: 44px;
+            line-height: 44px;
+            padding-left: 15px;
+            width: 88px;
+            border-bottom: 2px solid  #ff0000;
+        }
+        .unrecord{
+            width: 100%;
+            height: 100%;
+            margin-top: 100px;
+             text-align: center;
+             p{
+                 color: #555555;
+                 font-size: 14px;
+             }
+        }
+    }
+    .ivu-table-body{
+        min-height: 236px;
+    }
+    .v-divTable{
+        // min-height: 288px;
+    }
+    .v-main {
+        width: 100%;
+        background: #ffffff;
+        .main{
+            width: 93.67%;
+            margin: 0 auto;
+            background: #ffffff;
+            min-height:493px; 
+        }
+        .buy {
+            width: 48%;
+            float: left;
+        }
+        .sell {
+            width: 45%;
+            float: left;
+            margin-left: 76px;
+            p{
+                span{
+                    float: right;
+                    color: #666666;
+                    font-size: 14px;
+                }
+            }
+            .check{
+                float: left;
+                margin-top: 15px;
+            }
+        }
+        
+        .buy,.sell{
+            p{
+                font-size:16px;
+                color:#555555;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            .inp{
+                margin-top: 20px;
+                position: relative;
+                height: 44px;
+                width:508px;
+                border-radius: 3px;
+                border: 1px solid #ebebeb;
+                line-height: 44px;
+                box-sizing: border-box;
+                // overflow: hidden;
+                input{
+                    float: right;
+                    padding-right: 13px;
+                    text-align:right;
+                    height: 100%;
+                    width: 75%;
+                }
+                input:disabled{
+                    background: #f5f5f5;
+                    // height: 42.5px;
+                }
+                span{
+                    float: left;
+                    font-size: 14px;
+                    color: #555555;
+                    width: 25%;
+                    text-align: center;
+                    height: 32px;
+                    margin-top:6px;
+                    line-height: 32px;
+                    border-right: 1px solid #e7e7e7;
+                }
+                .sps{
+                    color:#808080;
+                    background: #f5f5f5;
+                    height:100%;
+                    margin-top: 0px;
+                    line-height: 44px;
+                }
+            }
+            b{
+                float: right;
+                margin-right: 32px;
+                font-size: 14px;
+                color: #555555;
+                margin-top: 15px;
+                span{
+                    margin-left: 15px;
+                }
+            }
+            .buyBtn{
+                height: 44px;
+                width:508px;
+                margin-top: 50px;
+                background: #19be6b;
+                border-radius: 3px;
+                color: #ffffff;
+                text-align: center;
+                font-size: 16px;
+                line-height: 44px;
+                cursor: pointer;
+            }
+            .sellBtn{
+                height: 44px;
+                width:508px;
+                margin-top: 50px;
+                background: #ed3f14;
+                border-radius: 3px;
+                color: #ffffff;
+                text-align: center;
+                font-size: 16px;
+                line-height: 44px;
+                cursor: pointer;
+            }
+        }
+        .ivu-checkbox-wrapper{
+            font-size: 14px;
+        }
+        .ivu-checkbox-checked .ivu-checkbox-inner{
+            border-color: #00aedd;
+            background-color: #00aedd;
+        }
+        .info{
+            width: 100%;
+            margin-top: 32px;
+            border: 1px solid #ebebeb;
+            background: #f5f5f5;
+            h1{
+                font-size: 16px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+            }
+            p{
+                font-size: 14px;
+                color: #666666;
+                margin-bottom: 5px;
+                margin-left: 20px;
+            }
+        }
+    }
+    // .last{
+    //     text-align: center;
+    // }
+    .ivu-table td, .ivu-table th{
+        height: 47.27px;
+    }
+}
+.delmask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(55,55,55,.6);
+    height: 100%;
+    z-index: 1000;
+}
+.alertModal{
+    position: fixed;
+    top:0;
+    // margin-top: -300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    height:300px;
+    width: 500px;
+    margin:auto;
+    z-index: 10000;
+    vertical-align:middle;
+    border-radius: 3px;
+    p{
+        padding: 0.15rem 0rem 0.15rem 0.2rem;
+        font-size: 18px;
+        color: #555555;
+        border-bottom: 1px solid #dedede;
+        span{
+            float: right;
+            margin-right:0.2rem;
+            font-size: 30px;
+            margin-top: -10px;
+        }
+    }
+    form{
+        width:80%;
+        margin: 0 auto;
+        margin-top: 0.3rem;
+        min-width: 358px;
+    }
+    .btn{
+        text-align: center;
+        margin-top: 100px;
+        button{
+            width: 27.5%;
+        }
+    }
+}
+.ivu-page-item-active{
+    background-color: #00aedd;
+}
+.ivu-checkbox-disabled+span{
+    color: #555555;
+}
+.ivu-modal-body{
+    padding: 16px 10px;
+}

@@ -1,0 +1,156 @@
+.v-TradArea{
+  width: 100%;
+  background: #ffffff;
+  min-height: 212px;
+  .dashed{
+    background: #ffffff url('/static/img/dashed.png') repeat-x;
+    height: 1px;
+  }
+  .center{
+    min-height: 84px;
+    font-size: 14px;
+    padding: 0 .2rem;
+    position: relative;
+    .dashed{
+      width: 98%;
+      margin: 0 1%;
+      left: 0;
+      position: absolute;
+      bottom: 0;
+    }
+    .B-list{
+      overflow: hidden;
+      li{
+        margin-right: 25px;
+        float: left;
+        width: 88px;
+        text-align: center;
+        line-height: 68px;
+        cursor: pointer;
+        &.active{
+          border-bottom: 2px solid red;
+        }
+        img{
+          vertical-align: middle;
+          margin-top: -4px;
+        }
+        span{
+          display: inline-block;
+          margin-left: 5px;
+        }
+       
+      }
+    }
+    
+  }
+  .bottom{
+    min-height: 82px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+    ul{
+      float: left;
+      height: 100%;
+      width: 33%;
+      &.last{
+        font-size: 16px;
+        margin-right: 0;
+        span{
+          font-size: 22px;
+          color: #47cb89;
+          padding: 0;
+          font-weight: normal;
+          .icon{
+             
+            font-size: 23px;
+            
+            margin-top: -10px;
+          }
+        }
+        .spanc{
+          font-size: 22px;
+          color:#ef2121;
+          padding: 0;
+          font-weight: normal;
+        
+        }
+        .botm{
+          font-size: 14px;
+          b{
+            font-weight: normal;
+          }
+        }
+
+      }
+      li{
+        line-height:20px;
+        color: #555555;
+        span{
+          font-weight: 400;
+          padding-right: 10px;
+
+          
+        }
+        b{
+          font-weight: 400;
+        }
+        
+        
+      }
+    }
+    
+  }
+}
+// 梯形
+.Trapezoid {
+  overflow: hidden;
+  background: #f3f3f3;
+  height: 44px;
+  padding: 0;
+  line-height: 44px;
+}
+
+.Trapezoid > li {
+  float: left;
+  position: relative;
+  width: 160px;
+  text-align: center;
+  list-style: none;
+  color: #555;
+  font-size: 16px;
+  margin-right: 10px;
+  background: #e7e7e7;
+  cursor: pointer;
+}
+
+.Trapezoid > li:before, .Trapezoid > li:after {
+  position: absolute;
+  top: 0;
+}
+
+.Trapezoid > li:before {
+  width: 44px;
+  height: 44px;
+  right: -43px;
+  background: inherit;
+}
+
+// .Trapezoid > li:after {
+//   right: -43px;
+//   border-top-width:22px;
+//   border-bottom-width: 22px;
+//   border-left-width: 10px;
+//   border-right-width: 10px;
+//   border-style: solid;
+//   border-color:  #f3f3f3 #f3f3f3 transparent transparent;
+// }
+
+.Trapezoid > li.active {
+  background: #ffffff;
+}
+
+// .Trapezoid > li.active:before, .Trapezoid > li.active:after {
+//   content: '';
+// }    
+

@@ -1,0 +1,140 @@
+.l_container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-width: 1200px;
+    // min-height:743px;
+    #particles-js {
+        width: 100%;
+        height: 660px;
+        overflow: hidden;
+        background: #f3f3f3;
+      }
+    
+    .ivu-checkbox-checked .ivu-checkbox-inner{
+        background-color: #00aedd;
+        border-color: #00aedd;
+    }
+    .ivu-checkbox-checked:hover .ivu-checkbox-inner{
+        background-color: #00aedd;
+        border-color: #00aedd;
+    }
+    .login{
+        width: 400px;
+        height:325px;
+        background: #ffffff;
+        opacity: 0.9;
+        overflow: auto;  
+        margin: auto;  
+        position: absolute;  
+        top: 0; left: 0; bottom: 0; right: 0;  
+    }
+    .login1{
+        width: 400px;
+        height:395px;
+        background: #ffffff;
+        opacity: 0.9;
+        overflow: auto;  
+        margin: auto;  
+        position: absolute;  
+        top: 0; left: 0; bottom: 0; right: 0;  
+    }
+    form{
+        width: 320px;
+        height: 255px;
+        overflow: hidden;  
+        margin: auto;  
+        position: absolute;  
+        top:12px; left: 0; bottom: 0; right: 0; 
+        h3{
+            font-size: 16px;
+        }
+        .pbox{
+            width:320px;
+            position: relative;
+            margin-top:12px;
+            span{
+                display: inline-block;
+                position: absolute;
+                right:0;
+                top: 0;
+                border-left: 1px solid #e5e5e5;
+                width: 0.92rem;
+                height:40px;
+                text-align: center;
+                line-height:40px;
+                cursor: pointer;
+            }
+        } 
+        input[type=text],input[type=password]{  
+            width:320px;
+            height:40px;
+            background: #ffffff;
+            border:1px solid #dfdfdf;
+            color: #4d4d4d;
+            font-size: 14px;
+            padding-left:40px;
+            line-height: 40px;
+            border-radius: 3px;
+        }
+        input::-webkit-input-placeholder{
+            color: #999999;
+        }
+        i{
+            width:40px;
+            height:40px;
+            position: absolute;
+           // left:10px;
+            top: 0;
+            line-height:40px;
+        }
+        .icon1{
+            // width: 0.3rem;
+            // height: 0.3rem;
+            background: url(/static/img/login2.png) no-repeat center;
+        }
+        .icon2{
+            // width: 0.3rem;
+            // height: 0.3rem;
+            background: url(/static/img/login1.png) no-repeat center;
+        }
+        .icon3{
+            // width: 0.3rem;
+            // height: 0.3rem;
+            background: url(/static/img/login4.png) no-repeat center;
+        }
+        button{
+            background: #00aedd;
+            color: #ffffff;
+            width: 100%;
+            height:40px;
+            border-radius:3px;
+            font-size: 14px;
+        }
+        button:hover{
+            background: #09baea;
+        }
+        .ivu-checkbox-wrapper{
+            font-size: 14px;
+        }
+        ul{
+            float: right;
+            margin-top: 0.12rem;
+            li{
+                float: left;
+                margin-left: 0.05rem;
+                font-size: 14px;
+                cursor:pointer;
+            }
+        }
+        .checkbox{
+            margin: .1rem 0;
+            display:block;
+        }
+    }
+    .vertical-center-modal{
+        justify-content: center;
+        align-items: center;
+        display: -webkit-flex;
+    }
+}

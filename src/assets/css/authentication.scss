@@ -1,0 +1,490 @@
+.a_conent{
+    width: 100%;
+    height: 100%;
+    .btn{
+        // border-top: 1px solid #dedede;
+        text-align: center;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        width: 100%;
+        button{
+            margin-right: 0.23rem;
+            
+        }
+    }
+    .btn1{
+        // border-top: 1px solid #dedede;
+        text-align: center;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        width: 100%;
+        button{
+            margin-right: 0.23rem;
+            
+        }
+    }
+    .ivu-select-item-selected, .ivu-select-item-selected:hover{
+        background: #00aedd;
+    }
+    .ivu-select-visible .ivu-select-selection{
+        border-color: #00aedd;
+    }
+    .ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner span, .ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner>.ivu-steps-icon{
+        color: #00aedd;
+    }
+    .a_header{
+        width: 100%;
+        // height:0.78rem; 
+        padding-top: 0.3rem;;
+        padding-bottom: 0.3rem;;
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 0.3rem;
+        h2{
+            display: block;
+            line-height: 0.25rem;
+            padding-left: 0.16rem;
+            margin-left: 0.3rem;
+            border-left: 0.04rem solid #00aedd;
+            height: 0.25rem;
+        }
+     }
+     .ivu-steps-horizontal{
+         margin-left:0.5rem;
+         margin-top:0.5rem;
+     }
+    //  .ivu-steps-item,.ivu-steps-status-finish,.ivu-steps-head-inner,.ivu-steps-item,.ivu-steps-status-finish,.ivu-steps-head-inner>span,.ivu-steps-item,.ivu-steps-status-finish,.ivu-steps-head-inner>.ivu-steps-icon{
+    //     border-color: #00aade;
+    //  }
+     .ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner{
+        border-color: #00aade;
+     }
+     .info{
+         border: 1px solid #00aedd;
+         background: #e5f7fc;
+         width: 95%;
+         margin: 0 auto;
+         margin-top: 0.24rem;
+         margin-bottom: 0.55rem;
+         p{
+             color: #333333;
+             font-size: 14px;
+             margin-top: 0.15rem;
+             margin-bottom: 0.15rem;
+             margin-left: 0.16rem;
+         }
+     }
+     .first{
+        width: 100%;
+        form{
+            width: 56%;
+            margin: 0  auto;
+        }
+        .ivu-input{
+            height: 40px;
+        }
+     }
+     .two{
+         width: 100%;
+         height: 100%;
+        .infos{
+            border: 1px solid #00aedd;
+            background: #e5f7fc;
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 0.24rem;
+            margin-bottom: 0.69rem;
+            padding-bottom: 0.2rem;
+            padding-top: 0.2rem;
+            p{
+                color: #333333;
+                font-size: 14px;
+                margin-left: 0.16rem;
+            }
+        }
+       .second{
+            width: 100%;
+            form{
+                width: 90%;
+                margin: 0 auto;
+                .show{
+                    // position: relative;
+                    float: right;
+                    span{
+                        position: absolute;
+                        right:2.8rem;
+                    }
+                    img{
+                        margin-right: 90px;
+                    }
+                    // float: left;
+                    // margin-left: 1rem;
+                    // position: relative;
+                    // span{
+                    //     position: absolute;
+                    //     left: 0.1rem;
+                    // }
+                    // display: inline-block;
+                text-align: right;
+                }
+                .show1{
+                    float: right;
+                    // text-align: right;
+                    // position: relative;
+                    span{
+                        position: absolute;
+                        right: 2.8rem;
+                    }
+                    img{
+                        width:1.26rem;
+                        height: 0.8rem;
+                    }
+                }
+            }
+
+            .show3{
+                text-align: right;
+                // position: relative;
+                span{
+                    position: absolute;
+                    right: 3.8rem;
+                }
+            }
+     }
+     }
+
+
+    //  .show{
+    //     width: 40%;
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 3.3rem;
+    //     span{
+    //         float: left;
+    //         margin-right: 0.2rem;;
+    //     }
+    //     img{
+    //         width: 35%;
+    //         float: left;
+    //         margin-right: 0.2rem;
+    //     }
+    //  }
+    //  .show1{
+    //     width: 40%;
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 1.3rem;
+    //     span{
+    //         float: left;
+    //         margin-right: 0.2rem;;
+    //     }
+    //     img{
+    //         width: 25%;
+    //         float: left;
+    //     }
+    //  }
+
+     .three{
+         width: 100%;
+         height: 100%;   
+        .infoss{
+            border: 1px solid #00aedd;
+            background: #e5f7fc;
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 0.24rem;
+            margin-bottom: 0.69rem;
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            p{
+                color: #333333;
+                font-size: 14px;
+                margin-left: 0.16rem;
+            }
+        }
+     }
+     .third{
+        width: 80%;
+        margin:0 auto;
+        p{
+            margin-left: 0.3rem;
+        }
+         .rz{
+             margin-top: 0.32rem;
+             width: 100%;
+             height:3.5rem;
+             margin-bottom: 0.5rem;
+             dl{
+                 width: 50%;
+                 float: left;
+                 text-align: center;
+                 dt{
+                     width: 100%;
+                     img{
+                         width: 50%;
+                         height: 50%;
+                     }
+                 }
+                 dd{
+                     margin-top: 0.1rem;
+                 }
+             }
+            }
+
+     }.upload{
+        width:1.39rem;
+        height:0.95rem;
+        position:relative;
+        margin-right: 10px;
+        // display:inline-block;
+        cursor: pointer;
+        border:1px dashed #ccc;
+        float: left;
+        .ivu-upload{
+            height:100%;
+            .ivu-upload-drag{
+                height:100%;
+               
+            }
+        }
+      
+        // .ivu-upload-list{
+        //     display: none;
+        //     margin-top:0;
+        // }
+        h2{
+            width:100%;
+            height:100%;
+            position:absolute;
+            left:0;
+            top:0;
+            z-index:7;
+            line-height:0.96rem;
+            text-align:center;
+            font-weight:normal;
+        }
+    }
+    .img_show{
+        // width:auto;
+        // height:0.95rem;
+        position: relative;
+        margin-right:10px;
+        cursor: pointer;
+        // display:inline-block;
+        float: left;
+            width:1.39rem;
+            height:0.95rem;
+            // display:inline-block;
+            
+         
+        // }
+        img{
+            width:100%;
+            height:100%;
+            display:inline-block;
+        }
+    }
+     .four{
+        width: 95%;
+        margin:0 auto;
+        border: 1px solid #00aedd;
+        background: #e5f7fc;
+        margin-top: 0.45rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        font-size: 14px;
+        dl{
+            width: 100%;
+            height: 100%;
+            dt{
+                float: left;
+                margin-top: -12px;
+                img{
+                    width: 0.44rem;
+                    height: 0.48rem;
+                    margin-left: 0.2rem;
+                    margin-right: 0.1rem;
+                }
+            }
+        }
+     }
+     .ivu-form-item-label{
+        font-size: 14px;
+        padding: 13px 12px 13px 0;
+     }
+     .ivu-form-item-content {
+        position: relative;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    //  .ivu-form-item-label{
+    //      width: 110px!important;
+    //  }
+    //  .ivu-form-item-content{
+    //      margin-left: 110px!important;
+    //  }
+    .ivu-upload{
+        border:none
+    }
+    .ivu-upload-drag{
+        border: none;
+        
+    }
+    .ivu-upload-list{
+        display: none;
+    }
+    .ivu-upload-drag:hover{
+        border: none;
+    }
+     .upVideo{
+        display: inline-block;
+        width:1.39rem;
+        height:0.95rem;
+        display:inline-block;
+        text-align: center;
+        line-height: 0.95rem;
+        background: #fff;
+        border: 1px dashed #dddee1;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        }
+    //  .demo-upload-list{
+    //     display: inline-block;
+    //     width: 60px;
+    //     height: 60px;
+    //     text-align: center;
+    //     // line-height: 60px;
+    //     border: 1px solid transparent;
+    //     border-radius: 4px;
+    //     // overflow: hidden;
+    //     background: #fff;
+    //     position: relative;
+    //     box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    //     margin-right: 4px;
+    // }
+    // .demo-upload-list img{
+    //     width: 100%;
+    //     height: 100%;
+    // }
+    // .demo-upload-list-cover{
+    //     position: absolute;
+    //     display: none;
+    //     top: 0.2rem;
+    //     left: 0.2rem;
+    //     i{
+    //         margin-right: 0.1rem;
+    //     }
+    // }
+    // .demo-upload-list:hover{
+    //     .demo-upload-list-cover{
+    //         display: block;
+    //     }
+    // }
+    // .ivu-form-item-label{
+    //     padding-right: 1px;
+    // }
+}
+
+
+.demo-upload-list-cover{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+}
+.img_show:hover .demo-upload-list-cover{
+    display: block;
+    cursor: pointer;
+}
+.demo-upload-list-cover i{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 25px;
+    display: inline-block;
+    line-height: 95px;
+}
+.ivu-select-single .ivu-select-selection{
+    height: 40px;
+}
+.ivu-select-selection,.ivu-select-dropdown{
+    width: 86%;
+}
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder, .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+    height: 40px;
+    line-height: 40px;
+  
+}
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder,{
+    display: none;
+}
+// .ivu-form-item-label{
+//     padding-right: 1px;
+// }
+.ivu-input-wrapper,.ivu-select,.ivu-select-single{
+    width: 85%;
+    // margin-left: 0.45rem;;
+}
+
+.ivu-select-selection{
+    width: 100%;
+}
+.ivu-upload .ivu-upload-select{
+    width: 100%;
+    height: 100%;
+}
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-tail>i:after{
+    background: #00aedd;
+}
+.upShow{
+    position: absolute;
+    right: 0;
+    top: -60px;
+    p{
+        margin-bottom: 22px;
+        margin-left: 0px!important;
+    }
+    dl:nth-child(2){
+        float: left;
+        text-align: center;
+        width:79px;
+        margin-right: 20px;
+        dt{
+            width: 79px;
+            height: 174px;
+            img{
+                width: 100%;
+                height: 80%;
+            }
+        }
+        dd{
+            margin-top: 10px;
+        }
+    }
+    dl:nth-child(3){
+        float: left;
+        text-align: center;
+        width: 241px;
+        height: 174px;
+        dt{
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        dd{
+            margin-top: 10px;
+        }
+    }
+}
+// .ivu-select-selection>.ivu-select-placeholder{
+//     display: none;
+// }

@@ -1,0 +1,60 @@
+.h_conent{
+    width: 100%;
+    height: 100%;
+    .h_header{
+        width: 100%;
+        // height:0.78rem; 
+        padding-top: 0.3rem;;
+        padding-bottom: 0.3rem;;
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 0.3rem;
+        h2{
+            display: block;
+            line-height: 0.25rem;
+            padding-left: 0.16rem;
+            margin-left: 0.3rem;
+            border-left: 0.04rem solid #00aedd;
+            height: 0.25rem;
+        }
+     }
+     .more_btn{
+         text-align:center;
+     }
+     .tabs{
+         width: 95%;
+         margin: 0 auto;
+         p{
+            font-size:16px;
+            font-weight:600;
+            width: 100%;
+            color: #555555;
+            height: 0.4rem;
+            span{
+                width: 49%;
+                display: inline-block;
+                text-align: center;
+            }
+         }
+         .uls{
+             width: 100%;
+             li{
+                 width:100%;
+                 border-bottom:1px solid #ebebeb;
+                 padding:0.15rem 0;
+                 font-size: 16px;
+                 color: #666666;
+                 span{
+                    width: 49%;
+                    display: inline-block;
+                    text-align: center;
+                 }
+             }
+             li:nth-child(even){
+                 background: #fbfbfb;
+             }
+         }
+     }
+     .ivu-message{
+         top:590px!important;
+     }
+    }
